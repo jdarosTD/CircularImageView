@@ -48,19 +48,19 @@
                 app:avatarBackgroundColor="@{bgColor}"
                 app:text="@{myName}"
                 app:textSize="22sp"
-                app:strokeWidth="1dp"
-                app:strokeColor="@android:color/white"/>
+                app:civStrokeWidth="1dp"
+                app:civStrokeColor="@android:color/white"/>
 
             <com.github.abdularis.civ.AvatarImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="8dp"
-                app:highlightEnable="false"
+                app:civHighlightEnable="false"
                 app:avatarBackgroundColor="#8E24AA"
                 app:text="B"
                 app:textSize="22sp"
-                app:strokeColor="#64B5F6"
-                app:strokeWidth="1dp"/>
+                app:civStrokeColor="#64B5F6"
+                app:civStrokeWidth="1dp"/>
 
             <com.github.abdularis.civ.AvatarImageView
                 android:layout_width="60dp"
@@ -80,8 +80,8 @@
                 app:avatarBackgroundColor="#1976D2"
                 app:text="B"
                 app:textSize="22sp"
-                app:strokeColor="#1976D2"
-                app:strokeWidth="1dp"/>
+                app:civStrokeColor="#1976D2"
+                app:civStrokeWidth="1dp"/>
 
         </LinearLayout>
 
@@ -104,16 +104,16 @@
                 android:layout_height="170dp"
                 android:layout_marginRight="8dp"
                 android:src="@drawable/figure"
-                app:highlightColor="#80fb1743"
-                app:strokeColor="@color/colorAccent"
-                app:strokeWidth="2px"/>
+                app:civHighlightColor="#80fb1743"
+                app:civStrokeColor="@color/colorAccent"
+                app:civStrokeWidth="2px"/>
 
             <com.github.abdularis.civ.CircleImageView
                 android:layout_width="160dp"
                 android:layout_height="160dp"
                 android:src="@drawable/figure2"
                 android:onClick="onCircleImageClick"
-                app:strokeColor="@color/colorAccent"/>
+                app:civStrokeColor="@color/colorAccent"/>
         </LinearLayout>
 
     </LinearLayout>

@@ -177,7 +177,7 @@ public class AvatarImageView extends CircleImageView {
     @NonNull
     private String extractInitial(@Nullable String letter) {
         if (letter == null || letter.trim().length() <= 0) return "?";
-        return String.valueOf(letter.charAt(0));
+        return letter;
     }
 
     private void updateTextBounds() {

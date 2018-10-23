@@ -43,15 +43,15 @@ Check also the sample app
 ![](screenshots/fig2.gif)
 
 ~~~xml
-<com.github.abdularis.civ.CircleImageView
+<com.ins.android.library.ui.civ.CircleImageView
     android:layout_width="100dp"
     android:layout_height="170dp"
     android:src="@drawable/figure"
-    app:highlightColor="#80fb1743"
+    app:civHighlightColor="#80fb1743"
     app:strokeColor="@color/colorAccent"
     app:strokeWidth="2px"/>
 
-<com.github.abdularis.civ.CircleImageView
+<com.ins.android.library.ui.civ.CircleImageView
     android:layout_width="160dp"
     android:layout_height="160dp"
     android:src="@drawable/figure2"
@@ -66,7 +66,7 @@ Check also the sample app
 You can choose either for avatar_state, IMAGE or INITIAL to show the first letter (default is INITIAL)
 
 ~~~xml
-<com.github.abdularis.civ.AvatarImageView
+<com.ins.android.library.ui.civ.AvatarImageView
     android:layout_width="60dp"
     android:layout_height="60dp"
     android:src="@drawable/figure"
@@ -77,17 +77,17 @@ You can choose either for avatar_state, IMAGE or INITIAL to show the first lette
     app:text="A"
     app:textSize="22sp"/>
 
-<com.github.abdularis.civ.AvatarImageView
+<com.ins.android.library.ui.civ.AvatarImageView
     android:layout_width="60dp"
     android:layout_height="60dp"
-    app:highlightEnable="false"
+    app:civHighlightEnable="false"
     app:strokeColor="#64B5F6"
     app:strokeWidth="1dp"
     app:avatarBackgroundColor="#8E24AA"
     app:text="B"
     app:textSize="22sp"/>
 
-<com.github.abdularis.civ.AvatarImageView
+<com.ins.android.library.ui.civ.AvatarImageView
     android:layout_width="60dp"
     android:layout_height="60dp"
     app:avatarBackgroundColor="#FDFD00"
@@ -95,7 +95,7 @@ You can choose either for avatar_state, IMAGE or INITIAL to show the first lette
     app:textSize="22sp"
     app:textColor="#3d3d01"/>
 
-<com.github.abdularis.civ.AvatarImageView
+<com.ins.android.library.ui.civ.AvatarImageView
     android:layout_width="60dp"
     android:layout_height="60dp"
     android:src="@drawable/figure2"
@@ -130,10 +130,10 @@ These are all attributes that you can use to customize the appearance of CircleI
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CircleImageView">
-        <attr name="strokeColor" format="color"/>
-        <attr name="strokeWidth" format="dimension"/>
-        <attr name="highlightEnable" format="boolean"/>
-        <attr name="highlightColor" format="color"/>
+        <attr name="civStrokeColor" format="color"/>
+        <attr name="civStrokeWidth" format="dimension"/>
+        <attr name="civHighlightEnable" format="boolean"/>
+        <attr name="civHighlightColor" format="color"/>
     </declare-styleable>
 
     <declare-styleable name="AvatarImageView">

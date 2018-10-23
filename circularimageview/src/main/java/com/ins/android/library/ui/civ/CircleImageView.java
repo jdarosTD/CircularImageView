@@ -56,10 +56,10 @@ public class CircleImageView extends ImageView {
         if (attrs != null) {
             TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CircleImageView, 0, 0);
 
-            strokeColor = a.getColor(R.styleable.CircleImageView_strokeColor, Color.TRANSPARENT);
-            strokeWidth = a.getDimensionPixelSize(R.styleable.CircleImageView_strokeWidth, 0);
-            highlightEnable = a.getBoolean(R.styleable.CircleImageView_highlightEnable, true);
-            highlightColor = a.getColor(R.styleable.CircleImageView_highlightColor, DEF_PRESS_HIGHLIGHT_COLOR);
+            strokeColor = a.getColor(R.styleable.CircleImageView_civStrokeColor, Color.TRANSPARENT);
+            strokeWidth = a.getDimensionPixelSize(R.styleable.CircleImageView_civStrokeWidth, 0);
+            highlightEnable = a.getBoolean(R.styleable.CircleImageView_civHighlightEnable, true);
+            highlightColor = a.getColor(R.styleable.CircleImageView_civHighlightColor, DEF_PRESS_HIGHLIGHT_COLOR);
 
             a.recycle();
         }
